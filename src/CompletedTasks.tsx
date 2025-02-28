@@ -1,10 +1,13 @@
 import { completedTaskArray } from "./CompletedTaskArray"
+
+// giving my props textColor, newWidth, bgColor their respective types
 type Props = {
     bgColor: string
     newWidth: number
     textColor: string
 }
 
+// use destructuring to grab textColor, newWidth and bgColor then set their type to Props
 export default function CompletedTasks({ newWidth, textColor, bgColor }: Props) {
   return (
     <div className="col-md-4 d-flex flex-column vh-100 gx-0" style={{ backgroundColor: bgColor }}>

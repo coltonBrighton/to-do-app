@@ -1,4 +1,4 @@
-
+// make an array called taskArray to hold some sample data
 export const taskArray = [
     {
         id: 1,

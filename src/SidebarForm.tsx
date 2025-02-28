@@ -1,4 +1,5 @@
 export default function SidebarForm() {
+  // make the Add Task button alert the user that the button was clickd
   const addTask = () => {
     return alert('You clicked me!')
   };

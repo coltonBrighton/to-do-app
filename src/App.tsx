@@ -4,7 +4,9 @@ import Sidebar from "./Sidebar";
 import TasksToDo from "./TasksToDo";
 
 export default function App () {
+  // making a width prop for card sizes
   const width = 15
+  // create application using compenents Navbar, Sidebar, TasksToDo, and CompletedTasks.
   return (
     <div className="row">
       <Navbar/>

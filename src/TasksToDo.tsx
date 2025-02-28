@@ -1,10 +1,12 @@
 import { taskArray } from "./TaskArray";
 
+// giving my props textColor, newWidth, bgColor their respective types
 type Props = {
   textColor: string;
   newWidth: number;
   bgColor: string;
 };
+// use destructuring to grab textColor, newWidth and bgColor then set their type to Props
 export default function TasksToDo({ textColor, newWidth, bgColor }: Props) {
   return (
     <div className="col-md-4 d-flex flex-column gx-0" style={{ backgroundColor: bgColor }}>
